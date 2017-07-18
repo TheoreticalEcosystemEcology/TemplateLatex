@@ -1,0 +1,40 @@
+\definecolor{foreground}{RGB}{96,96,96}
+\definecolor{text}{RGB}{77,77,77}
+% ouo 77, 77, 77
+\definecolor{bssblue}{RGB}{126,182,155}
+\definecolor{bssred}{RGB}{224, 128, 163}
+\definecolor{bssgreen}{RGB}{212,224,155}
+
+\setbeamercolor{normal text}{fg=text}
+\setbeamercolor{frametitle}{fg=foreground}
+\setbeamercolor{framesubtitle}{fg=bssblue}
+
+\setbeamercolor{title}{fg=bssblue}
+\setbeamercolor{subtitle}{fg=foreground}
+
+\setbeamercolor{alerted text}{fg=bssblue}
+\setbeamercolor{structure}{fg=bssblue}
+
+\setbeamercolor{footlinecolor}{fg=bssblue}
+\setbeamercolor{section in head/foot}{fg=foreground}
+
+%%%%%%%%%%% Block color sets %%%%%%%%%%%%%%%%
+
+% Standard block
+\setbeamercolor{block title}{fg = bssblue, bg = bssblue!40}
+\setbeamercolor{block body}{bg = bssblue!40}
+
+% Alert block
+\setbeamercolor{block title alerted}{fg = bssred, bg = bssred!40}
+\setbeamercolor{block body alerted}{ bg = bssred!40}
+
+% Example block
+\setbeamercolor{block title example}{fg = bssgreen, bg = bssgreen!40}
+\setbeamercolor{block body example}{ bg = bssgreen!40}
+
+\setbeamertemplate{background}{
+		\ifnum\c@framenumber=1%
+        \pgfuseimage{bg}
+    \else%
+    \fi%
+}
