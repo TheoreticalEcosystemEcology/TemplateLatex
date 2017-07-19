@@ -1,3 +1,4 @@
+
 ## Template Beamer
 
 Beamer template for the Bayesian Summer School + a Rmarkdown integration.
@@ -31,3 +32,4 @@ Rscript --no-init-file  -e 'rmarkdown::render("DemoRmarkdown.Rmd", "all")'
 ## Todo
 
 - [X] Rmarkdown integration
+- [ ] This could be a repo to store more templates (for different documents) NB: I may not pick up the right name. 
