@@ -53,11 +53,11 @@
 
 %%%%% TITLE PAGE TEMPLATE
 \setbeamerfont{title}{size=\Large}
-\setbeamerfont{subtitle}{size=\normalsize}
-\setbeamerfont{author}{size=\small}
+\setbeamerfont{subtitle}{size=\large}
+\setbeamerfont{author}{size=\normalsize}
 \setbeamerfont{website}{size=\small}
 \setbeamerfont{institute}{size=\small}
-\setbeamerfont{date}{size=\tiny}
+\setbeamerfont{date}{size=\small}
 
 \setbeamertemplate{title page}{%
     \vfill%
@@ -85,7 +85,7 @@
     \ifx\@website\@empty%
     \else%
       \begin{beamercolorbox}[left,leftskip=.1814\paperwidth]{website}%
-        \usebeamerfont{website}\@website%
+        \color{bssblue}\usebeamerfont{website}\@website%
       \end{beamercolorbox}%
     \fi%
     \bigskip%

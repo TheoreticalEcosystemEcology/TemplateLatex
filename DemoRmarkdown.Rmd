@@ -1,5 +1,6 @@
 ---
-title: "Habits"
+title: "Rmarkdown integration"
+subtitle: "You better have a look at the website"
 documentclass: eecslides
 babel-lang: english
 output:
